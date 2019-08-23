@@ -1,0 +1,11 @@
+# Mac OS temp Files
+.DS_Store
+
+# Environment Variables
+.env
+
+# Main Site Folder
+app
+
+# Site Specific Commands
+SITE_SPECIFIC.md
