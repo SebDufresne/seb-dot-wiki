@@ -5,7 +5,7 @@
 .env
 
 # Main Site Folder
-app
+#app
 
 # Site Specific Commands
 SITE_SPECIFIC.md

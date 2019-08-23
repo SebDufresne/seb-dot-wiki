@@ -30,4 +30,3 @@ docker exec -it <container_name> bash
 /app#  composer create-project drupal-composer/drupal-project:8.x-dev /app --stability dev --no-interaction
 /app#  mkdir -p /app/config/sync
 /app#  chown -R www-data:www-data /app/web
-

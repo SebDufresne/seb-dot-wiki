@@ -37,6 +37,7 @@ _places I took code from, and adapted it for my needs_
 (I was on a thight schedule to make a working site, so I couldn't afford to start those from scratch)
 
 [Continuous Drupal: Maintaining a Drupal Website With Docker, Git & Composer](https://circleci.com/blog/continuous-drupal-p1-maintaining-with-docker-git-composer/)
+[Continuous Drupal Part II: Drupal 8 CI](https://circleci.com/blog/continuous-drupal-p2-continuous-integration/)
 
 ## Future Plans
 
