@@ -1,0 +1,40 @@
+uuid: f906e3c6-d71e-4fb2-9506-1cfe6eb231af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.life_event.body
+    - field.field.node.life_event.field_image
+    - node.type.life_event
+  module:
+    - image
+    - text
+    - user
+id: node.life_event.default
+targetEntityType: node
+bundle: life_event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

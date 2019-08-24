@@ -1,0 +1,17 @@
+uuid: 509cdc46-b49d-4267-9b25-489d1350fa26
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Life event'
+type: life_event
+description: 'Use life events for experience content like jobs, studies or volunteering work.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

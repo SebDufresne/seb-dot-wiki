@@ -1,0 +1,31 @@
+uuid: 843d7be8-e65e-40bb-9717-378cd5ac7eca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.life_event.body
+    - node.type.life_event
+  module:
+    - text
+    - user
+id: node.life_event.teaser
+targetEntityType: node
+bundle: life_event
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

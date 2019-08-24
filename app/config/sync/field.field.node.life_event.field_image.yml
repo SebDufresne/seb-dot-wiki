@@ -1,22 +1,27 @@
-uuid: 9cab7044-f0a4-4c74-b649-b425eadf30e8
+uuid: 97a6d059-1270-47b6-9b5e-c6db387e0378
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
-    - node.type.article
+    - node.type.life_event
   module:
+    - content_translation
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: node.life_event.field_image
 field_name: field_image
 entity_type: node
-bundle: article
+bundle: life_event
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -26,11 +31,11 @@ settings:
   max_resolution: ''
   min_resolution: ''
   alt_field: true
-  title_field: false
   alt_field_required: true
+  title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
